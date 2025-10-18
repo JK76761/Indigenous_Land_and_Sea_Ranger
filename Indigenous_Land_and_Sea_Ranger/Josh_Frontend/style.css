@@ -143,3 +143,86 @@ footer {
   font-size: 15px;
   margin-top: auto; /* keeps footer at bottom */
 }
+
+/* CONTACT PAGE */
+.contact-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.contact-section {
+  width: 80%;
+  max-width: 700px;
+  background-color: #f8f8ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #3c1690;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #3c1690;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+  font-family: 'Comic Neue', sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3c1690;
+}
+
+.contact-btn {
+  background-color: #4b24c4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #2f1a8f;
+}
+
